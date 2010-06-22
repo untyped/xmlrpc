@@ -72,11 +72,8 @@ betty.userland.com
 PLT Servlet Functions
 =====================
 
-To use the Untyped XML-RPC library to build a servlet, include one of
-the two servlet-based libraries. If you want to write a unit-based
-servlet, include "xmlrpc-unit-servlet.ss".  If you want to write a
-module-based servlet, use "xmlrpc-module-servlet.ss". For PLT Scheme
-version 352.5 and later, we recommend using the module-based approach.
+To use the Untyped XML-RPC library to build a servlet, include 
+"xmlrpc-module-servlet.ss".
 
 > add-handler : symbol (any ... -> any) -> void
 
